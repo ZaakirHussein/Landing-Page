@@ -1,0 +1,211 @@
+
+body {
+  margin: 0px;
+  font-family: sans-serif
+
+  /* Top */  
+}
+.Header {
+    background-color:#1F2937;
+    color: #white;
+    padding: 8px 150px;
+    padding-bottom: 125px;
+    
+}
+.Navigation-Bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    padding-right: 0px;
+}
+
+.Navigation-Bar-Left {
+    display: flex;
+  
+}
+
+.Navigation-Bar-Right {
+    display: flex;
+    gap: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Header-Middle {
+    display: flex;
+    color: #F9FAF8;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Header-Middle-Left {
+   width: 500px;
+   height: auto;
+}
+
+
+.Header-Middle-Title {
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.Header-Middle-Subtext {
+    color: #e5e7eb;
+    display: inline-flex;
+    word-wrap: break-word;
+  
+}
+.Button1 {
+    display: inline-flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 35px;
+    border: 2px #3882f6;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+  /* Top 2nd*/  
+
+.Main-content {
+    background-color: #white;
+    color: #1F2937;
+    padding: 24px;
+    margin-bottom: 52px;
+
+}
+
+.Main-content-header {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.Main-content-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 52px;
+    margin-top: 12px;
+   
+     
+}
+.ImageText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.middle-images { 
+   border: 2px solid #3882f6;
+   border-radius: 10px;
+   flex: 1 1 0px
+  
+}
+.middle-text {
+    display: flex;
+    flex: 1 1 0px
+}
+
+/* Third Section*/
+
+.Testimonial {
+    background-color: #e5e7eb;
+    padding: 110px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.light-text {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.lebronquote {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 36px; 
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    justify-self: center;
+    flex-direction: column;
+   
+}
+
+.bybron { 
+    font-size: 28px; 
+    font-weight: 900;
+    font-style: normal;
+    color: #1F2937;
+    margin-top: 10px;
+    text-align: end;
+    margin-bottom: 0px;
+    
+}
+
+/* bottom section */
+
+.Bottom-Section {
+    background-color: white;
+    padding: 100px 0px;
+   display: flex;
+   justify-content: center;
+    
+}
+
+.signup {
+    display: inline-flex;
+    gap: 150px;
+    background-color: #3882f6;
+    padding: 32px 100px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    max-width: 1000px;
+
+}
+.left {
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+
+.right{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.signupbutton {
+    display: inline-flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 35px;
+    border: 2px #e5e7eb;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Footer*/
+
+footer {
+    background-color:#1F2937;
+    color: #e5e7eb;
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1px;
+}
